@@ -16,7 +16,7 @@ class BankAccount {
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.println("Deposit successful! Your new balance is: $" + balance);
+            System.out.println("Deposit successful! Your new balance is: ₹" + balance);
         } else {
             System.out.println("Invalid deposit amount!");
         }
@@ -25,7 +25,7 @@ class BankAccount {
     public boolean withdraw(double amount) {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
-            System.out.println("Withdrawal successful! Your new balance is: $" + balance);
+            System.out.println("Withdrawal successful! Your new balance is: ₹" + balance);
             return true;
         } else if (amount > balance) {
             System.out.println("Insufficient funds!");
@@ -54,7 +54,7 @@ class ATM {
     }
 
     public void checkBalance() {
-        System.out.println("Your current balance is: $" + account.getBalance());
+        System.out.println("Your current balance is: ₹" + account.getBalance());
     }
 
     public void deposit(double amount) {
