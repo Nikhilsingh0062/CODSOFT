@@ -30,7 +30,7 @@ public class NumberGame {
                     System.out.println("Congratulations! You've guessed the correct number in " + numberOfAttempts + " attempts.");
                 }
             }
-
+// method
             System.out.println("Do you want to play again? (yes/no)");
             String response = scanner.next();
             playAgain = response.equalsIgnoreCase("yes");
