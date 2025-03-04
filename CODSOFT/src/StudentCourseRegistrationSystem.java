@@ -1,4 +1,4 @@
-//TASK5: STUDENT COURSE REGISTRATION
+// TASK5: STUDENT COURSE REGISTRATION
 import java.util.*;
 
 class Course {
